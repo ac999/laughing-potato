@@ -24,5 +24,12 @@ De pe analiza arborelui de acoperire putem deduce ca reteaua este finita, ca nu 
 
 ![graf_accesibilitate](https://raw.githubusercontent.com/ac999/laughing-potato/master/img/marking.png)
 
-Analiza structurala este facuta pe baza retelei cu numar nelimitat de oameni care vor sa intre in sala si este incluse in fisierul [analiza_structurala](./sectie-de-votare-struct.txt)
+Analiza structurala este facuta pe baza retelei cu numar nelimitat de oameni care vor sa intre in sala si se afla in fisierul [analiza_structurala](./sectie-de-votare-struct.txt).
 
+Pe baza acesteia deducem ca:
+1. Locatiile PB si PBlim sunt limitate la 1;
+2. Locatiile BULETINE si Blim sunt limitate la 7;
+3. Locatiile S, VEUP, VEUPVR, VR sunt limitate la 5;
+4. Locatiile CV, VEUP, VEUPVR, VR sunt limitate la 5;
+5. Locatiile Blim, LEUP, LEUPLR, LR, PBI, VEUP, VEUPVR, VR sunt limitate la 7;
+6. Tranzitiile nu sunt consistente;
