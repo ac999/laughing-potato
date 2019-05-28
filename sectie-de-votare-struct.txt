@@ -1,0 +1,54 @@
+Struct version 3.4.4 -- 01/05/16 -- LAAS/CNRS
+
+parsed net {sectie-de-votare}_1
+
+17 places, 12 transitions
+
+net {sectie-de-votare}_1
+tr t0 : {generator votant} PBlim -> PB 
+tr t1 : {semneaza LR} Blim PB -> BULETINE LR PBlim 
+tr t10 CV LEUPLR S -> VEUPVR 
+tr t11 : {pl. in urna} VEUPVR -> CV PBI S UEUP UR 
+tr t2 : {semneaza LEUP} Blim PB -> BULETINE LEUP PBlim 
+tr t3 CV LR S -> VR 
+tr t4 CV LEUP S -> VEUP 
+tr t5 : {semneaza LEUP+LR} Blim PB -> BULETINE LEUPLR PBlim 
+tr t6 : {pl. in urna} VEUP -> CV PBI S UEUP 
+tr t7 : {pl. in urna} VR -> CV PBI S UR 
+tr t8 : {poate pleca} BULETINE PBI -> Blim NRV 
+tr t9 : {respingere votant} PB -> PBlim RESPINSI 
+pl Blim (7)
+pl CV : {cabine disponibile} (5)
+pl PBlim (1)
+pl S : {stampila ready} (5)
+pl NRV : {nr. votanti}
+pl PBI : {p. lua. bul. inapoi}
+pl UEUP : {urna eup}
+pl UR : {urna R}
+
+0.001s
+
+P-SEMI-FLOWS GENERATING SET ------------------------------------- 
+
+not invariant
+
+PB PBlim (1)
+BULETINE Blim (7)
+S VEUP VEUPVR VR (5)
+CV VEUP VEUPVR VR (5)
+Blim LEUP LEUPLR LR PBI VEUP VEUPVR VR (7)
+
+0.000s
+
+T-SEMI-FLOWS GENERATING SET ------------------------------------- 
+
+not consistent
+
+no semiflows
+
+0.000s
+
+ANALYSIS COMPLETED  --------------------------------------------- 
+
+
+
