@@ -12,4 +12,4 @@ Sa se modeleze un sistem, utilizand Tina. Sistemul trebuie sa aiba minim 10 tran
 
 Pentru analiza, vom presupune ca sunt doar 5 oameni care vor sa intre in sala.
 
-![Pe baza grafului de acoperire]https://raw.githubusercontent.com/ac999/laughing-potato/master/img/coverability.png
+![Pe baza grafului de acoperire](https://raw.githubusercontent.com/ac999/laughing-potato/master/img/coverability.png)
