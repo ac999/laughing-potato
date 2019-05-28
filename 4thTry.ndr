@@ -1,0 +1,82 @@
+p 335.0 205.0 CV 5 n {cabine disponibile} s
+p 340.0 85.0 VR 0 n
+p 45.0 305.0 UEUP 0 n {urna eup} s
+t 160.0 85.0 t7 c 0 w n {pl. in urna} n
+p 30.0 160.0 UR 0 n {urna R} ne
+p 540.0 450.0 BULETINE 0 n
+p 100.0 520.0 PBI 0 nw {p. lua. bul. inapoi} s
+p 855.0 515.0 Blim 7 n
+t 305.0 485.0 t8 c 0 w n {poate pleca} s
+p 520.0 560.0 NRV 0 n {nr. votanti} e
+t 1290.0 265.0 t0 c 0 w n {generator votant} n
+t 1280.0 180.0 t9 c 0 w n {respingere votant} n
+p 1135.0 205.0 PB 0 n
+t 1060.0 70.0 t1 c 0 w n {semneaza LR} n
+t 1045.0 220.0 t2 c 0 w n {semneaza LEUP} n
+t 1045.0 465.0 t5 c 0 w n {semneaza LEUP+LR} n
+p 1215.0 380.0 PBlim 1 n
+p 825.0 160.0 S 5 n {stampila ready} s
+p 920.0 50.0 LR 0 n
+p 920.0 230.0 LEUP 0 n
+p 855.0 415.0 LEUPLR 0 n
+t 715.0 65.0 t3 0 w n
+t 720.0 260.0 t4 0 w n
+t 790.0 335.0 t10 0 w n
+t 175.0 295.0 t6 c 0 w n {pl. in urna} s
+p 360.0 310.0 VEUP 0 n
+p 350.0 415.0 VEUPVR 0 n
+t 170.0 440.0 t11 c 0 w n {pl. in urna} ne
+e t11 PBI 1 n
+e t11 UR 1 n
+e t11 UEUP 1 n
+e t11 CV 1 n
+e t11 S 1 n
+e VEUPVR t11 1 n
+e t10 VEUPVR 1 n
+e CV t10 1 n
+e S t10 1 n
+e LEUPLR t10 1 n
+e t5 LEUPLR 1 n
+e Blim t5 1 n
+e t5 0.4841372413 50.24937811 BULETINE 0.929369794 67.54257916 1 n
+e t5 PBlim 1 n
+e PB t5 1 n
+e t9 PBlim 1 n
+e PB t9 1 n
+e t8 NRV 1 n
+e Blim 0.1018225234 107.2007463 t2 0.7376632189 103.3102125 1 n
+e Blim t1 1 n
+e t8 Blim 1 n
+e BULETINE t8 1 n
+e PBI t8 1 n
+e t6 PBI 1 n
+e t7 PBI 1 n
+e t7 S 1 n
+e t6 S 1 n
+e t2 0.688122506 89.69392399 BULETINE 0.9907393063 103.1746093 1 n
+e t1 BULETINE 1 n
+e t7 CV 1 n
+e t6 CV 1 n
+e t7 UR 1 n
+e VR t7 1 n
+e t6 UEUP 1 n
+e VEUP t6 1 n
+e t4 VEUP 1 n
+e CV t4 1 n
+e CV t3 1 n
+e t3 VR 1 n
+e LEUP t4 1 n
+e S t4 1 n
+e S t3 1 n
+e LR t3 1 n
+e t2 PBlim 1 n
+e t1 0.933589832 106.1037228 PBlim 0.2239098629 134.8072698 1 n
+e t2 LEUP 1 n
+e PB t2 1 n
+e t1 LR 1 n
+e PB t1 1 n
+e PBlim t0 1 n
+e t0 PB 1 n
+h 4thTry
+
+
