@@ -8,6 +8,10 @@ Se va contoriza numarul de persoane respinse/nr. de persoane care au votat.
 
 Sa se modeleze un sistem, utilizand Tina. Sistemul trebuie sa aiba minim 10 tranzitii. Sa se realizeze analiza sistemului (invarianti, proprietati care se pot deduce pe baza invariantilor, daca este cazul, proprietati generale utilizand graful de accesibilitate/acoperire).
 
+# Reteaua Petri realizata:
+
+![petri_net](https://raw.githubusercontent.com/ac999/laughing-potato/master/img/sdv.png)
+
 # Analiza sistemului:
 
 Pentru analiza mai rapida, vom presupune ca sunt doar 5 oameni care vor sa intre in sala.
