@@ -1,5 +1,6 @@
-# laughing-potato
-proiect pt. retele petri de nota 6 (facut cu tina)
+# Sectie de votare:
+
+Fie o sala de votare cu 2 urne, una pentru referendum, iar cealalta pentru Europarlamentare. La intrarea in sala, buletinul persoanei va fi verificat, iar pe baza rezultatului verificarii persoana va fi fie primita sa voteze, fie respinsa. Nu pot fi verificate mai multe persoane in acelasi timp. In sala pot fi prezenti maxim 7 votanti. In sala sunt prezente 5 stampile de vot si 5 cabine de vot. Persoana admisa in sala poate vota pentru referendum, Europarlamentare sau pentru amandoua. Dupa ce alege, daca are stampile disponibile (nu sunt utilizate de alti oameni) si
 
 # Cerinta:
 Sa se modeleze un sistem, utilizand Tina. Sistemul trebuie sa aiba minim 10 tranzitii. Sa se realizeze analiza sistemului (invarianti, proprietati care se pot deduce pe baza invariantilor, daca este cazul, proprietati generale utilizand graful de accesibilitate/acoperire).
