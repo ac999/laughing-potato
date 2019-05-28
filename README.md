@@ -10,6 +10,8 @@ Sa se modeleze un sistem, utilizand Tina. Sistemul trebuie sa aiba minim 10 tran
 
 # Analiza sistemului:
 
-Pentru analiza, vom presupune ca sunt doar 5 oameni care vor sa intre in sala.
+Pentru analiza mai rapida, vom presupune ca sunt doar 5 oameni care vor sa intre in sala.
 
-![Pe baza grafului de acoperire](https://raw.githubusercontent.com/ac999/laughing-potato/master/img/coverability.png)
+![arbore_acoperire](https://raw.githubusercontent.com/ac999/laughing-potato/master/img/coverability.png)
+De pe analiza arborelui de acoperire putem deduce ca reteaua este finita, ca nu este viabila, dar nu putem spune nimic de reversibilitatea acesteia, in schimb, de pe baza grafului de accesibilitate nu putem deduce viabilitatea retelei:
+![graf_accesibilitate](https://raw.githubusercontent.com/ac999/laughing-potato/master/img/marking.png)
